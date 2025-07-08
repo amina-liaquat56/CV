@@ -1,0 +1,115 @@
+\documentclass[a4paper,11pt]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[margin=1in]{geometry}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{multicol}
+\usepackage{graphicx}
+\usepackage{titlesec}
+\usepackage{xcolor}
+\usepackage{fontawesome5}
+
+% Custom commands
+\newcommand{\twocolentry}[2]{
+    \noindent\textbf{#2} \hfill \textit{#1}
+}
+
+\newcommand{\onecolentry}[1]{
+    \noindent #1 \par
+}
+
+\newenvironment{highlights}{
+    \begin{itemize}[leftmargin=1.5em]
+}{
+    \end{itemize}
+}
+
+\newenvironment{cvitems}{
+    \begin{itemize}[leftmargin=1.5em]
+}{
+    \end{itemize}
+}
+
+\titleformat{\section}{\large\bfseries}{}{0em}{}[\titlerule]
+
+\begin{document}
+
+% Header
+\begin{center}
+    {\LARGE \textbf{Amina Liaquat}}\\
+    \vspace{0.3cm}
+    Faisalabad, Pakistan \\
+    \vspace{0.2cm}
+    \href{mailto:aminaliaquat259@gmail.com}{\faEnvelope\ aminaliaquat259@gmail.com} \quad
+    \faPhone\ 0311-1482812 \\
+    \href{https://www.linkedin.com/in/amina-liaquat}{\faLinkedin\ Amina Liaquat} \quad
+    \href{https://github.com/amina-liaquat56}{\faGithub\ amina-liaquat56} \quad
+    \href{https://leetcode.com/u/amina_liaquat04/}{\faCode\ amina\_liaquat04}
+\end{center}
+
+\vspace{0.4cm}
+
+% About Me
+\section*{About Me}
+\onecolentry{
+I'm Amina Liaquat. I'm currently pursuing my MS in Computer Science at the University of Agriculture, Faisalabad. I'm learning how to code. I love making and designing webpages with HTML and CSS (and sometimes JavaScript). It's fun to code something that anyone on the web can easily see. I also enjoy programming in JavaScript and Python because they challenge me more. I love it when I can finally solve a difficult problem.
+}
+
+% Education
+\section*{Education}
+
+\twocolentry{Jan 2024 – Dec 2025}{University of Agriculture Faisalabad}\\
+\onecolentry{\textit{MS in Computer Science}}\\
+\begin{highlights}
+    \item CGPA: 3.2 / 4.0
+\end{highlights}
+
+\twocolentry{Sep 2019 – Oct 2023}{Government College University, Faisalabad}\\
+\onecolentry{\textit{BS in Computer Science}}\\
+\begin{highlights}
+    \item CGPA: 3.5 / 4.0
+\end{highlights}
+
+% Achievements
+\section*{Achievements}
+
+\begin{cvitems}
+    \item \textbf{\textcolor{blue}{LeetCode:}} Solved \textbf{130+} Data Structures and Algorithms problems – \href{https://leetcode.com/u/amina_liaquat04/}{Profile Link}
+    
+    \item \textbf{\textcolor{blue}{CS50x Puzzle Day Winner (2×):}} 
+    \href{https://ik.imagekit.io/fjchcwc5f/WhatsApp%20Image%202025-07-06%20at%2010.53.51%20AM.jpeg?updatedAt=1751781535212}{Won 1st place} at Harvard CS50x Puzzle Day 2024 and 2025 by solving 9/9 complex puzzles.
+\end{cvitems}
+
+% Skills
+\section*{Skills}
+
+\onecolentry{\textbf{Languages:} HTML5, CSS3, Bootstrap, Python, PHP, JavaScript}
+\vspace{0.2cm}
+
+\onecolentry{\textbf{IDEs:} VS Code, PyCharm, Anaconda, Jupyter Notebook, MATLAB}
+\vspace{0.2cm}
+
+\onecolentry{\textbf{Version Control:} Git, GitHub}
+
+% Projects
+\section*{Projects}
+
+\twocolentry{\href{https://github.com/amina-liaquat56/Testimonial-box-switcher.git}{GitHub Repo}}{Testimonial Box Switcher}
+\begin{highlights}
+    \item A lightweight testimonial switcher built using HTML, CSS, and JavaScript.
+    \item Displays user testimonials with auto-switching and smooth transitions.
+\end{highlights}
+
+\twocolentry{\href{https://github.com/amina-liaquat56/Calculator.git}{GitHub Repo}}{Calculator}
+\begin{highlights}
+    \item Developed a responsive calculator with modern UI using HTML, CSS, and JavaScript.
+\end{highlights}
+
+\twocolentry{2025}{Personal Projects}
+\begin{highlights}
+    \item Built an E-commerce website, Netflix mobile navigation UI, and calculator.
+    \item Tools Used: HTML, CSS, JavaScript
+\end{highlights}
+
+\end{document}
