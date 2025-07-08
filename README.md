@@ -3,16 +3,16 @@
 This repository contains my **curriculum vitae (CV)** created using **LaTeX**.  
 It includes my background, skills, education, projects, and achievements, all presented in a clean and professional format.
 
-## 📝 What’s Inside
+## What’s Inside
 
-- 📬 Contact Details  
-- 🌐 Online Profiles  
-- 🎓 Education  
-- 🏆 Achievements  
-- 💻 Projects  
-- 🛠️ Technical Skills
+- Contact Details  
+- Online Profiles  
+- Education  
+- Achievements  
+- Projects  
+- Technical Skills
 
-## ✨ Highlights
+## Highlights
 
 - **Modern & Clean Design**  
   A minimal and professional layout designed to highlight key information clearly.
